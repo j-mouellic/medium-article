@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat&display=swap');
+
+body{
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Lora;
+  color: #494949;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+h1, h2{
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+}
+
+
+/* ----------------------------------------------- 
+------------       CONTAINER        -------------*/
+.container{
+  width: 700px;
+  margin: 50px auto;
+}
+
+/* ----------------------------------------------- 
+----------    --       BANNER        - ------------*/
+
+.banner{
+  padding: 120px 0;
+  background-image: url(https://source.unsplash.com/3OiYMgDKJ6k/1000x500);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.banner h1{
+  font-size: 38px;
+}
+
+.banner p{
+  font-size: 30px;
+  font-size: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+
+/* ----------------------------------------------- 
+---------   ---       LINK        --------   -----*/
+
+.link-medium{
+  padding: 10px 15px;
+  border-radius: 15px;
+  background-color: rgba(233, 253, 240, 1);
+  font-size: 25px;
+  font-weight: lighter;
+  color: #636363;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.link-medium:hover{
+  background-color: rgb(137, 229, 170);
+  transition: ease 0.5s;
+}
+
+/* ----------------------------------------------- 
+------------     MEDIA QUERIES     -------------*/
+
+@media (max-width: 1200px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 830px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 300px;
+  }
+}
+
